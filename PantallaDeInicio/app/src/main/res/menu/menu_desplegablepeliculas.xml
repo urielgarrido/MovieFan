@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/cienciaFiccion"
+        android:title="@string/categoriaCienciaFiccion"
+        android:icon="@drawable/spaceship">
+
+    </item>
+    <item
+        android:id="@+id/accion"
+        android:title="@string/categoriaAccion"
+        android:icon="@drawable/actionicon">
+    </item>
+    <item
+        android:id="@+id/aventuras"
+        android:title="@string/aventuras"
+        android:icon="@drawable/ic_aventuras"
+        >
+    </item>
+    <item
+        android:id="@+id/animacion"
+        android:title="@string/animacion"
+        android:icon="@drawable/ic_animacion"
+        >
+    </item>
+    <item
+        android:id="@+id/comedia"
+        android:title="@string/categoriaComedia"
+        android:icon="@drawable/comedyicon">
+    </item>
+    <item
+        android:id="@+id/crimen"
+        android:title="@string/crimen"
+        android:icon="@drawable/ic_crimen"
+        >
+    </item>
+    <item
+        android:id="@+id/documentales"
+        android:title="@string/documentales"
+        android:icon="@drawable/ic_documentales"
+        >
+    </item>
+    <item
+        android:id="@+id/drama"
+        android:title="@string/categoriaDrama"
+        android:icon="@drawable/dramaicon">
+    </item>
+    <item
+        android:id="@+id/familia"
+        android:title="@string/familia"
+        android:icon="@drawable/ic_familia"
+        >
+    </item>
+    <item
+        android:id="@+id/fantasia"
+        android:title="@string/fantasia"
+        android:icon="@drawable/ic_fantasia"
+        >
+    </item>
+    <item
+        android:id="@+id/historia"
+        android:title="@string/historia"
+        android:icon="@drawable/ic_historia"
+        >
+    </item>
+    <item
+        android:id="@+id/horror"
+        android:title="@string/horror"
+        android:icon="@drawable/ic_horror"
+        >
+    </item>
+    <item
+        android:id="@+id/musica"
+        android:title="@string/musica"
+        android:icon="@drawable/ic_musica"
+        >
+    </item>
+    <item
+        android:id="@+id/misterio"
+        android:title="@string/misterio"
+        android:icon="@drawable/ic_misterio"
+        >
+    </item>
+
+    <group
+        android:id="@+id/menu_usuario"
+        android:checkableBehavior="single">
+
+    <item android:id="@+id/favoritos"
+        android:title="@string/favoritos"
+        android:icon="@drawable/ic_grade_black_24dp">
+    </item>
+
+    <item
+        android:title="Iniciar Sesión/Cerrar Sesión"
+        android:id="@+id/iniciarSesion"
+        android:icon="@drawable/login_icon">
+
+    </item>
+
+    </group>
+
+</menu>

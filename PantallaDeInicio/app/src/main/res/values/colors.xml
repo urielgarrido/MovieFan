@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- colores principales de la app -->
+    <color name="colorPrimary">#52b34a</color>
+    <color name="colorPrimaryDark">#14821b</color>
+    <color name="colorPrimaryLight">#85e679</color>
+    <!-- -->
+    <color name="colorAccent">#e7e6e6</color>
+    <color name="negro">#F000</color>
+    <color name="negroBackground">#0e0e0e</color>
+    <color name="negroAlpha">#af000000</color>
+    <color name="negroAlphaLight">#80000000</color>
+    <color name="blanco">#ffffff</color>
+    <color name="grisBackground">#121212</color>
+    <color name="grisBackgroundLight">#585757</color>
+    <color name="rojo">#810002</color>
+    <color name="colorGeneros">#ae0188</color>
+    <!-- iguales a los colores principales de la app pero con distinto nombre -->
+    <color name="primary">#52b34a</color>
+    <color name="primaryLight">#85e679</color>
+    <color name="primaryDark">#14821b</color>
+
+</resources>

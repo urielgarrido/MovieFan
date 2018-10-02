@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/accionyAventuraSeries"
+        android:title="@string/accionyaventura"
+        android:icon="@drawable/spaceship">
+
+    </item>
+    <item
+        android:id="@+id/animacionSeries"
+        android:title="@string/animacion"
+        android:icon="@drawable/ic_animacion">
+
+    </item>
+    <item
+        android:id="@+id/comediaSeries"
+        android:icon="@drawable/comedyicon"
+        android:title="@string/categoriaComedia">
+
+    </item>
+    <item
+        android:id="@+id/crimenSeries"
+        android:title="@string/crimen"
+        android:icon="@drawable/ic_crimen">
+
+    </item>
+    <item
+        android:id="@+id/documentalSeries"
+        android:title="@string/documental"
+        android:icon="@drawable/ic_documentales">
+
+    </item>
+    <item
+        android:id="@+id/dramaSeries"
+        android:icon="@drawable/dramaicon"
+        android:title="@string/categoriaDrama">
+
+    </item>
+    <item
+        android:id="@+id/familiaSeries"
+        android:title="@string/familia"
+        android:icon="@drawable/ic_familia">
+
+    </item>
+    <item
+        android:id="@+id/chicosSeries"
+        android:title="@string/chicos"
+        android:icon="@drawable/ic_chicos">
+
+    </item>
+    <item
+        android:id="@+id/misterioSeries"
+        android:title="@string/misterio"
+        android:icon="@drawable/ic_misterio">
+
+    </item>
+    <item
+        android:id="@+id/noticiasSeries"
+        android:title="@string/noticias"
+        android:icon="@drawable/ic_noticias">
+
+    </item>
+    <item
+        android:id="@+id/realitySeries"
+        android:title="@string/realitys"
+        android:icon="@drawable/ic_reality">
+
+    </item>
+
+    <item
+        android:id="@+id/sciFiFansasySeries"
+        android:title="@string/sci_fi_y_fantasia"
+        android:icon="@drawable/ic_fantasia">
+
+    </item>
+    <item
+        android:id="@+id/soapSeries"
+        android:title="@string/soap"
+        android:icon="@drawable/ic_soap">
+
+    </item>
+    <item
+        android:id="@+id/talkSeries"
+        android:title="@string/talk"
+        android:icon="@drawable/ic_talk">
+
+    </item>
+    <item
+        android:id="@+id/guerrayPolitica"
+        android:title="@string/guerra_y_politica"
+        android:icon="@drawable/ic_guerrapolitica">
+
+    </item>
+    <item
+        android:id="@+id/westernSeries"
+        android:title="@string/western"
+        android:icon="@drawable/ic_western">
+
+    </item>
+
+    <item
+        android:id="@+id/horror"
+        android:title="@string/horror"
+        android:icon="@drawable/ic_horror">
+
+    </item>
+    <item
+        android:id="@+id/musica"
+        android:title="@string/musica"
+        android:icon="@drawable/ic_musica">
+
+    </item>
+
+
+    <group
+        android:id="@+id/menu_categorias"
+        android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/favoritos"
+        android:icon="@drawable/ic_grade_black_24dp"
+        android:title="@string/favoritos">
+
+    </item>
+
+    <item
+        android:title="Iniciar Sesión/Cerrar Sesión"
+        android:id="@+id/iniciarSesionSerie"
+        android:icon="@drawable/login_icon">
+    </item>
+
+
+    </group>
+
+</menu>

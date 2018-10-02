@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/negro"
+    tools:context=".View.Fragments.GenerosDeSeriesFragment">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/textVIewGenero_seriescategorias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@as"
+        android:paddingStart="10dp"
+        android:text="@string/genero"
+        android:textColor="@color/blanco"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginBottom="9dp"
+        android:paddingEnd="20dp"
+        android:paddingStart="10dp"
+        android:src="@drawable/line_green_light" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewListaInicial_seriescategorias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

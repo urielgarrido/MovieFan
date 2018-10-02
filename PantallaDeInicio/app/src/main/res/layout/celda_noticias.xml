@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="7dp"
+    android:layout_marginEnd="7dp"
+    android:layout_marginTop="15dp"
+    android:background="@color/grisBackground"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        app:cardElevation="14dp"
+        app:cardCornerRadius="3dp">
+
+        <RelativeLayout
+            android:id="@+id/relative_noticia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/negro">
+
+
+
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/imageViewDeLaNoticiaCeldaNoticias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iconoserie" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignBottom="@id/imageViewDeLaNoticiaCeldaNoticias"
+                android:background="@color/negroAlpha">
+
+            <TextView
+                android:id="@+id/textViewTituloDeLaNoticiaCeldaNoticias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingStart="5dp"
+                android:gravity="left"
+                android:textColor="@color/primaryLight"
+                android:textSize="20sp"
+                android:text="@string/titulo_de_la_noticias" />
+
+            <TextView
+                android:id="@+id/texViewDescripcionDeLaNoticiaCeldaNoticias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blanco"
+                android:padding="5dp"
+                android:text="@string/descripcion_de_la_pelicula" />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

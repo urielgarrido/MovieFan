@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/grisBackground"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/iniciar_sesion"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/blanco"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInput_mail_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textColorHint="@color/blanco"
+        app:passwordToggleTint="@color/blanco">
+
+        <EditText
+            android:id="@+id/editText_mail_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Mail"
+            android:textSize="20sp"
+            android:textColor="@color/blanco"
+            android:theme="@style/editTextStyleLine"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputo_contraseña_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textInput_mail_login"
+        android:textColorHint="@color/blanco"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+        <EditText
+            android:id="@+id/editText_contraseña_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_margin="10dp"
+            android:hint="@string/contrasena"
+            android:textSize="20sp"
+            android:textColor="@color/blanco"
+            android:textColorHint="@color/blanco"
+            android:theme="@style/editTextStyleLine"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+     <Button
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/textInputo_contraseña_login"
+        android:id="@+id/boton_crear_login"
+        android:text="@string/crear"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/blanco"
+         android:layout_alignParentEnd="true"
+         android:layout_marginEnd="80dp"
+        android:background="@drawable/boton_verde" />
+
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/textInputo_contraseña_login"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="80dp"
+        android:id="@+id/boton_entrar_login"
+        android:textColor="@color/blanco"
+        android:background="@drawable/boton_verde"
+        android:text="@string/entrar" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/o"
+        android:textColor="@color/blanco"
+        android:textSize="24sp"
+        android:layout_below="@id/boton_entrar_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"/>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/boton_crear_login"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_button"
+        android:layout_marginTop="20dp"
+        android:text="Salir"
+        android:id="@+id/boton_salir_login"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

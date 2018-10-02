@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relative_header_navigation"
+    android:background="@drawable/popkorn_movies"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="160dp"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/imageViewIconoDeUsuario"
+        android:src="@drawable/ic_account_circle_black_24dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/textViewNombreDeUsuario"/>
+
+    <TextView
+        android:id="@+id/textViewNombreDeUsuario"
+        android:textSize="20sp"
+        android:text="@string/nombre_de_usuario"
+        android:textColor="@color/blanco"
+        android:layout_marginStart="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewEmailUsuario"/>
+
+    <TextView
+        android:id="@+id/textViewEmailUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:text="@string/email"
+        android:textColor="@color/blanco"
+        android:textSize="15sp" />
+
+</RelativeLayout>

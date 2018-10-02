@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grisBackground"
+    android:orientation="vertical"
+    tools:context=".View.Fragments.ListaDePeliculasEnHorizontalFragment">
+
+        <TextView
+            android:id="@+id/textVIewGenero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@as"
+            android:text="@string/genero"
+            android:textColor="@color/blanco"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_green_light"
+            android:paddingStart="10dp"
+            android:paddingEnd="20dp"
+            android:layout_marginBottom="9dp"
+            android:layout_gravity="start"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewListaInicial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+
+
+</LinearLayout>
